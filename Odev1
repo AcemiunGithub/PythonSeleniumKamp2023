@@ -1,0 +1,40 @@
+Python'da veri tipleri
+#############################
+String (metin) veri tipleri → str
+Numerik (sayısal) veri tipleri → int, float, complex
+Sequence (sıralama) veri tipleri → list, tuple, range
+Mapping (haritalama) veri tipleri → dict
+Set veri tipleri → set, frozenset
+Boolean veri tipleri → bool
+Binary veri tipleri → bytes, bytearray, memoryview
+
+1.string :metinsel  ifadeleri tutan veri tipidir (str)
+
+2.integer(int) tam sayı tutan veri tipidir.
+
+3.float,decimal,double ondalıklı sayı tutan veri tiplerir.
+
+4.bool(boolean) true veya false döndüren genelde şart ifadeleri için kullanılan veri tipidir.
+####################################################
+Kodlama.io sitesinde kullanılan değişkenler:
+
+1.Kurslarım metinsel ifadesi  string veri tipi olarak kullanılmıştır.
+kurs="Kurslarım"
+
+2.Yine kurs isimlerinin her biri de string olarak kullanılmıştır.
+kursName="(2023) Yazılım Geliştirici Yetiştirme Kampı - Python & Selenium"
+
+3.Kurs tamamlama % işareti bir string ifadedir ancak tamamlam yüzdesini gösteren sayılar integer veri tipi olarak kullanılmıştır.
+percentage="%"     
+perc_completion=25
+4.Kurs programında yer alan ders programı,değerlendirme ve ödevlerin yanında yer alan ve tamamlayıp tamalamadığımızı gösteren kutucuklar arka planda boolean değişkenlerde tutulmaktadır.
+degerlendirme=false
+
+5.Eğitmen listesi list tüürnde bir veri tipidir
+ educator=["Engin Demiroğ","Halit Enes Kalaycı"]
+####################################################
+Kodlama.io sitesinde kullanılan şart blokları :
+percentageCompletion=0
+degerlendirme=false
+if(degerlendirme==true)
+     percentageCompletion=25  #eğer değerlendirmeyi de tamaldıysa %25 tamamlandı yaz ve tamamlanma yüzdesini arttır
