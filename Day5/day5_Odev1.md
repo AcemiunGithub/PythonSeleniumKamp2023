@@ -4,12 +4,12 @@ Dekoratörler, doğrudan alt sınıfları kullanmak veya dekore edilen fonksiyon
 
 Decore etmek istediğimiz fonsiyondan önce @ sembolü kullanırız
 Bir cümleyi büyük harfe çevirecek basit bir dekoratör oluşturalım.
+
 def uppercase_decorator(function):
     def wrapper():
         func = function()
         make_uppercase = func.upper()
         return make_uppercase
-
     return wrapper
 
 Dekoratör fonksiyonumuz bir fonksiyonu argüman olarak alır ve bu nedenle bir fonksiyon tanımlayıp dekoratörümüze ileteceğiz.
